@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
@@ -20,19 +15,19 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-body.fh5co-offcanvas {
+body.zavi-offcanvas {
   overflow: hidden;
 }
 
 a {
-  color: #ff5722;
+  color: #800080;
   -webkit-transition: 0.5s, ease;
   -o-transition: 0.5s, ease;
   transition: 0.5s, ease;
 }
 a:hover {
   text-decoration: none !important;
-  color: #ff5722 !important;
+  color: #800080 !important;
 }
 
 p, ul, ol {
@@ -55,20 +50,20 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #ff5722;
+  background: #800080;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #ff5722;
+  background: #800080;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #ff5722;
+  background: #800080;
 }
 
-#fh5co-header {
+#zavi-header {
   position: relative;
   margin-bottom: 0;
   z-index: 9999999;
@@ -86,25 +81,25 @@ figure {
 
 .header-top {
   padding: 10px 0;
-  background: #ff5722;
+  background: #800080;
 }
-.header-top .fh5co-link a {
+.header-top .zavi-link a {
   margin-left: 10px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-.header-top .fh5co-link a:first-child {
+.header-top .zavi-link a:first-child {
   margin-left: 0;
 }
-.header-top .fh5co-link a:hover {
+.header-top .zavi-link a:hover {
   color: white !important;
 }
 @media screen and (max-width: 768px) {
-  .header-top .fh5co-link {
+  .header-top .zavi-link {
     text-align: center;
   }
 }
-.header-top .fh5co-social a {
+.header-top .zavi-social a {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   margin-right: 15px;
@@ -113,14 +108,14 @@ figure {
   -o-transition: 0.5s, ease-in-out;
   transition: 0.5s, ease-in-out;
 }
-.header-top .fh5co-social a:last-child {
+.header-top .zavi-social a:last-child {
   margin-right: 0;
 }
-.header-top .fh5co-social a:hover, .header-top .fh5co-social a:focus, .header-top .fh5co-social a:active {
+.header-top .zavi-social a:hover, .header-top .zavi-social a:focus, .header-top .zavi-social a:active {
   text-decoration: none;
   color: white !important;
 }
-.header-top .fh5co-social a:hover i, .header-top .fh5co-social a:focus i, .header-top .fh5co-social a:active i {
+.header-top .zavi-social a:hover i, .header-top .zavi-social a:focus i, .header-top .zavi-social a:active i {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -128,28 +123,28 @@ figure {
   transform: scale(1.2);
 }
 @media screen and (max-width: 768px) {
-  .header-top .fh5co-social {
+  .header-top .zavi-social {
     text-align: center !important;
   }
 }
 
-.fh5co-cover,
-.fh5co-hero {
+.zavi-cover,
+.zavi-hero {
   position: relative;
   height: 800px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover,
-  .fh5co-hero {
+  .zavi-cover,
+  .zavi-hero {
     height: 700px;
   }
 }
-.fh5co-cover.fh5co-hero-2,
-.fh5co-hero.fh5co-hero-2 {
+.zavi-cover.zavi-hero-2,
+.zavi-hero.zavi-hero-2 {
   height: 600px;
 }
-.fh5co-cover.fh5co-hero-2 .fh5co-overlay,
-.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+.zavi-cover.zavi-hero-2 .zavi-overlay,
+.zavi-hero.zavi-hero-2 .zavi-overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -160,7 +155,7 @@ figure {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.fh5co-overlay {
+.zavi-overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -172,30 +167,30 @@ figure {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.fh5co-cover {
+.zavi-cover {
   background-size: cover;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover {
+  .zavi-cover {
     heifght: inherit;
     padding: 3em 0;
   }
 }
-.fh5co-cover .btn {
+.zavi-cover .btn {
   padding: 1em 2em;
   opacity: .9;
 }
-.fh5co-cover.fh5co-cover_2 {
+.zavi-cover.zavi-cover_2 {
   height: 600px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover.fh5co-cover_2 {
+  .zavi-cover.zavi-cover_2 {
     heifght: inherit;
     padding: 3em 0;
   }
 }
-.fh5co-cover .desc {
+.zavi-cover .desc {
   top: 50%;
   position: absolute;
   width: 100%;
@@ -204,43 +199,43 @@ figure {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover .desc {
+  .zavi-cover .desc {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-.fh5co-cover .desc h2 {
+.zavi-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 60px;
   margin-bottom: 10px;
   font-weight: 300 !important;
 }
-.fh5co-cover .desc h2 strong {
+.zavi-cover .desc h2 strong {
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover .desc h2 {
+  .zavi-cover .desc h2 {
     font-size: 40px;
   }
 }
-.fh5co-cover .desc span {
+.zavi-cover .desc span {
   display: block;
   margin-bottom: 30px;
   font-size: 28px;
   letter-spacing: 1px;
 }
-.fh5co-cover .desc span a {
+.zavi-cover .desc span a {
   color: #fff;
 }
-.fh5co-cover .desc span a:hover, .fh5co-cover .desc span a:focus {
+.zavi-cover .desc span a:hover, .zavi-cover .desc span a:focus {
   color: #fff !important;
 }
-.fh5co-cover .desc span a:hover.btn, .fh5co-cover .desc span a:focus.btn {
+.zavi-cover .desc span a:hover.btn, .zavi-cover .desc span a:focus.btn {
   border: 2px solid #fff !important;
   background: transparent !important;
 }
-.fh5co-cover .desc span a.fh5co-site-name {
+.zavi-cover .desc span a.zavi-site-name {
   padding-bottom: 2px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
@@ -274,11 +269,11 @@ figure {
   border-bottom: none !important;
 }
 .sf-menu a:hover, .sf-menu a:focus {
-  color: #ff5722 !important;
+  color: #800080 !important;
 }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
-  color: #ff5722;
+  color: #800080;
 }
 
 .sf-menu li,
@@ -302,7 +297,7 @@ figure {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #ff5722;
+  color: #800080;
 }
 
 .sf-menu ul li:hover,
@@ -350,7 +345,7 @@ figure {
   border-left-color: #ccc;
 }
 
-#fh5co-header-section {
+#zavi-header-section {
   padding: 0;
   position: relative;
   left: 0;
@@ -365,7 +360,7 @@ figure {
   width: 100%;
 }
 
-#fh5co-logo {
+#zavi-logo {
   position: relative;
   z-index: 2;
   font-size: 22px;
@@ -374,38 +369,38 @@ figure {
   font-weight: 700;
   float: left;
 }
-#fh5co-logo span {
+#zavi-logo span {
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-logo {
+  #zavi-logo {
     width: 100%;
     float: none;
     text-align: center;
   }
 }
-#fh5co-logo a {
-  color: #ff5722;
+#zavi-logo a {
+  color: #800080;
 }
-#fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #ff5722 !important;
+#zavi-logo a:hover, #zavi-logo a:focus {
+  color: #800080 !important;
 }
 
-#fh5co-menu-wrap {
+#zavi-menu-wrap {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
   margin-top: 15px;
 }
-#fh5co-menu-wrap .sf-menu a {
+#zavi-menu-wrap .sf-menu a {
   padding: 1em .75em;
 }
 
-#fh5co-primary-menu > li > ul li.active > a {
-  color: #ff5722 !important;
+#zavi-primary-menu > li > ul li.active > a {
+  color: #800080 !important;
 }
-#fh5co-primary-menu > li > .sf-with-ul:after {
+#zavi-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -426,10 +421,10 @@ figure {
   content: "\e922";
   color: rgba(0, 0, 0, 0.5);
 }
-#fh5co-primary-menu > li > ul li {
+#zavi-primary-menu > li > ul li {
   position: relative;
 }
-#fh5co-primary-menu > li > ul li > .sf-with-ul:after {
+#zavi-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -450,7 +445,7 @@ figure {
   color: rgba(0, 0, 0, 0.5);
 }
 
-#fh5co-primary-menu .fh5co-sub-menu {
+#zavi-primary-menu .zavi-sub-menu {
   padding: 10px 7px 10px;
   background: #fff;
   left: 0;
@@ -464,11 +459,11 @@ figure {
   -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-#fh5co-primary-menu .fh5co-sub-menu > li > .fh5co-sub-menu {
+#zavi-primary-menu .zavi-sub-menu > li > .zavi-sub-menu {
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:before {
+#zavi-primary-menu .zavi-sub-menu:before {
   position: absolute;
   top: -9px;
   left: 20px;
@@ -477,7 +472,7 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:after {
+#zavi-primary-menu .zavi-sub-menu:after {
   position: absolute;
   top: -8px;
   left: 21px;
@@ -490,12 +485,12 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:before {
+#zavi-primary-menu .zavi-sub-menu .zavi-sub-menu:before {
   top: 6px;
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:after {
+#zavi-primary-menu .zavi-sub-menu .zavi-sub-menu:after {
   top: 7px;
   right: 100%;
   border: none !important;
@@ -513,7 +508,7 @@ figure {
   display: none;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu a {
+#zavi-primary-menu .zavi-sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
   font-size: 18px;
@@ -522,30 +517,30 @@ figure {
   text-transform: none;
   background: none;
 }
-#fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #ff5722 !important;
+#zavi-primary-menu .zavi-sub-menu a:hover {
+  color: #800080 !important;
 }
 
-#fh5co-work-section,
-#fh5co-services-section,
-#fh5co-content-section,
-#fh5co-work-section_2,
-#fh5co-blog-section,
-#fh5co-features {
+#zavi-work-section,
+#zavi-services-section,
+#zavi-content-section,
+#zavi-work-section_2,
+#zavi-blog-section,
+#zavi-features {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-work-section,
-  #fh5co-services-section,
-  #fh5co-content-section,
-  #fh5co-work-section_2,
-  #fh5co-blog-section,
-  #fh5co-features {
+  #zavi-work-section,
+  #zavi-services-section,
+  #zavi-content-section,
+  #zavi-work-section_2,
+  #zavi-blog-section,
+  #zavi-features {
     padding: 4em 0;
   }
 }
 
-.fh5co-section-gray {
+.zavi-section-gray {
   background: rgba(0, 0, 0, 0.04);
 }
 
@@ -561,7 +556,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #ff5722;
+  background: #800080;
 }
 .heading-section h3 {
   font-size: 40px;
@@ -582,7 +577,7 @@ figure {
 }
 .feature-text h3 .number {
   margin-right: 5px;
-  color: #ff5722;
+  color: #800080;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -593,7 +588,7 @@ figure {
 }
 
 .services {
-  background: #ff5722;
+  background: #800080;
   background: #fff;
   padding: 40px 20px 20px 20px;
   margin-bottom: 30px;
@@ -614,12 +609,12 @@ figure {
 }
 .services span i {
   font-size: 40px;
-  color: #ff5722 !important;
+  color: #800080 !important;
 }
 .services h3 {
   font-size: 20px;
   font-weight: 400;
-  color: #ff5722;
+  color: #800080;
 }
 .services p {
   font-size: 16px;
@@ -651,7 +646,7 @@ figure {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #ff5722;
+  color: #800080;
 }
 .feature-left .feature-copy {
   float: right;
@@ -682,17 +677,17 @@ figure {
   line-height: 1.8;
 }
 
-#fh5co-portfolio {
+#zavi-portfolio {
   padding: 7em 0;
   min-height: 500px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio {
+  #zavi-portfolio {
     padding: 3em 0;
   }
 }
 
-#fh5co-portfolio-list {
+#zavi-portfolio-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -707,7 +702,7 @@ figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-portfolio-list li {
+#zavi-portfolio-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -721,18 +716,18 @@ figure {
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li {
+  #zavi-portfolio-list li {
     margin-left: 0;
   }
 }
-#fh5co-portfolio-list li a {
+#zavi-portfolio-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-portfolio-list li a:before {
+#zavi-portfolio-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -745,10 +740,10 @@ figure {
   transition: 0.5s;
   background: transparent;
 }
-#fh5co-portfolio-list li a:hover:before {
+#zavi-portfolio-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-portfolio-list li a .case-studies-summary {
+#zavi-portfolio-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -757,138 +752,138 @@ figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li a .case-studies-summary {
+  #zavi-portfolio-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-portfolio-list li a .case-studies-summary span {
+#zavi-portfolio-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-portfolio-list li a .case-studies-summary h2 {
+#zavi-portfolio-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li a .case-studies-summary h2 {
+  #zavi-portfolio-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-portfolio-list li.two-third {
+#zavi-portfolio-list li.two-third {
   width: 65.6%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li.two-third {
+  #zavi-portfolio-list li.two-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.two-third {
+  #zavi-portfolio-list li.two-third {
     width: 100%;
   }
 }
-#fh5co-portfolio-list li.one-third {
+#zavi-portfolio-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li.one-third {
+  #zavi-portfolio-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.one-third {
+  #zavi-portfolio-list li.one-third {
     width: 100%;
   }
 }
-#fh5co-portfolio-list li.one-half {
+#zavi-portfolio-list li.one-half {
   width: 49%;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.one-half {
+  #zavi-portfolio-list li.one-half {
     width: 100%;
   }
 }
 
-#fh5co-features {
+#zavi-features {
   padding: 4em 0;
 }
-#fh5co-features .feature-left {
+#zavi-features .feature-left {
   margin-bottom: 0;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left {
+  #zavi-features .feature-left {
     margin-bottom: 30px;
   }
 }
-#fh5co-features .feature-left .icon i {
+#zavi-features .feature-left .icon i {
   color: #d9d9d9 !important;
 }
-#fh5co-features .feature-left .icon {
+#zavi-features .feature-left .icon {
   float: left;
   text-align: center;
   width: 15%;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left .icon {
+  #zavi-features .feature-left .icon {
     width: 10%;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-features .feature-left .icon {
+  #zavi-features .feature-left .icon {
     width: 15%;
   }
 }
-#fh5co-features .feature-left .feature-copy {
+#zavi-features .feature-left .feature-copy {
   float: right;
   width: 80%;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left .feature-copy {
+  #zavi-features .feature-left .feature-copy {
     width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-features .feature-left .feature-copy {
+  #zavi-features .feature-left .feature-copy {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-features .feature-left .feature-copy {
+  #zavi-features .feature-left .feature-copy {
     width: 80%;
   }
 }
-#fh5co-features .feature-left h3 {
+#zavi-features .feature-left h3 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
 }
-#fh5co-features .feature-left p {
+#zavi-features .feature-left p {
   font-size: 15px;
 }
-#fh5co-features .feature-left p:last-child {
+#zavi-features .feature-left p:last-child {
   margin-bottom: 0;
 }
 
-#fh5co-feature-product {
+#zavi-feature-product {
   padding: 7em 0;
 }
 
-#fh5co-services, #fh5co-about, #fh5co-contact {
+#zavi-services, #zavi-about, #zavi-contact {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-about, #fh5co-contact {
+  #zavi-services, #zavi-about, #zavi-contact {
     padding: 4em 0;
   }
 }
 
-#fh5co-services .fh5co-number {
+#zavi-services .zavi-number {
   font-size: 30px;
-  color: #ff5722;
+  color: #800080;
   position: relative;
   padding-top: 10px;
   font-style: italic;
@@ -897,16 +892,16 @@ figure {
   zoom: 1;
   *display: inline;
 }
-#fh5co-services .fh5co-number:before {
+#zavi-services .zavi-number:before {
   position: absolute;
   content: "";
   width: 100%;
   height: 3px;
   top: 0;
   left: 0;
-  background: #ff5722;
+  background: #800080;
 }
-#fh5co-services .fh5co-icon {
+#zavi-services .zavi-icon {
   margin-bottom: 30px;
   margin-top: 50px;
   position: relative;
@@ -916,43 +911,43 @@ figure {
   *display: inline;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services .fh5co-icon {
+  #zavi-services .zavi-icon {
     margin-top: 0px;
     float: none;
   }
 }
-#fh5co-services .fh5co-icon i {
+#zavi-services .zavi-icon i {
   font-size: 200px;
-  color: #ff5722;
+  color: #800080;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services .fh5co-icon i {
+  #zavi-services .zavi-icon i {
     font-size: 100px;
   }
 }
 
-#fh5co-contact .contact-info {
+#zavi-contact .contact-info {
   margin: 0;
   padding: 0;
 }
-#fh5co-contact .contact-info li {
+#zavi-contact .contact-info li {
   list-style: none;
   margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
 }
-#fh5co-contact .contact-info li i {
+#zavi-contact .contact-info li i {
   position: absolute;
   top: .3em;
   left: 0;
   font-size: 22px;
   color: rgba(0, 0, 0, 0.3);
 }
-#fh5co-contact .contact-info li a {
+#zavi-contact .contact-info li a {
   font-weight: 400 !important;
   color: rgba(0, 0, 0, 0.3);
 }
-#fh5co-contact .form-control {
+#zavi-contact .form-control {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -ms-box-shadow: none;
@@ -967,43 +962,43 @@ figure {
   -ms-border-radius: 0px;
   border-radius: 0px;
 }
-#fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
+#zavi-contact .form-control:focus, #zavi-contact .form-control:active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-#fh5co-contact input[type="text"] {
+#zavi-contact input[type="text"] {
   height: 50px;
 }
-#fh5co-contact .form-group {
+#zavi-contact .form-group {
   margin-bottom: 30px;
 }
 
-.fh5co-testimonial, .fh5co-team {
+.zavi-testimonial, .zavi-team {
   position: relative;
   background: #fff;
   padding: 4em 0;
   border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-testimonial, .fh5co-team {
+  .zavi-testimonial, .zavi-team {
     border-right: 0;
     margin-bottom: 80px;
   }
 }
-.fh5co-testimonial h2, .fh5co-team h2 {
+.zavi-testimonial h2, .zavi-team h2 {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.fh5co-testimonial figure, .fh5co-team figure {
+.zavi-testimonial figure, .zavi-team figure {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -65px;
   background-size: cover;
 }
-.fh5co-testimonial figure img, .fh5co-team figure img {
+.zavi-testimonial figure img, .zavi-team figure img {
   width: 130px;
   height: 130px;
   border: 10px solid #fff;
@@ -1013,49 +1008,49 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.fh5co-testimonial > div, .fh5co-team > div {
+.zavi-testimonial > div, .zavi-team > div {
   padding: 30px 30px 0 30px;
 }
-.fh5co-testimonial > div h3, .fh5co-team > div h3 {
+.zavi-testimonial > div h3, .zavi-team > div h3 {
   margin-bottom: 0;
   font-size: 20px;
-  color: #ff5722;
+  color: #800080;
 }
-.fh5co-testimonial > div .position, .fh5co-team > div .position {
+.zavi-testimonial > div .position, .zavi-team > div .position {
   color: #d9d9d9;
   margin-bottom: 30px;
 }
-.fh5co-testimonial > div,
-.fh5co-testimonial blockquote, .fh5co-team > div,
-.fh5co-team blockquote {
+.zavi-testimonial > div,
+.zavi-testimonial blockquote, .zavi-team > div,
+.zavi-team blockquote {
   border: none;
   margin-bottom: 20px;
   padding-top: 30px;
 }
-.fh5co-testimonial > div p,
-.fh5co-testimonial blockquote p, .fh5co-team > div p,
-.fh5co-team blockquote p {
+.zavi-testimonial > div p,
+.zavi-testimonial blockquote p, .zavi-team > div p,
+.zavi-team blockquote p {
   font-size: 18px;
   line-height: 1.6em;
   color: #555555;
 }
-.fh5co-testimonial span, .fh5co-team span {
+.zavi-testimonial span, .zavi-team span {
   font-style: italic;
   color: #b3b3b3;
 }
 
-.fh5co-blog {
+.zavi-blog {
   margin-bottom: 60px;
 }
-.fh5co-blog a img {
+.zavi-blog a img {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog {
+  .zavi-blog {
     width: 100%;
   }
 }
-.fh5co-blog .blog-text {
+.zavi-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
   background: #fff;
@@ -1069,51 +1064,51 @@ figure {
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
 }
-.fh5co-blog .blog-text span {
+.zavi-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
 }
-.fh5co-blog .blog-text span.posted_by {
+.zavi-blog .blog-text span.posted_by {
   font-style: italic;
   color: rgba(0, 0, 0, 0.3);
   font-size: 18px;
 }
-.fh5co-blog .blog-text span.comment {
+.zavi-blog .blog-text span.comment {
   float: right;
 }
-.fh5co-blog .blog-text span.comment a {
+.zavi-blog .blog-text span.comment a {
   color: rgba(0, 0, 0, 0.3);
 }
-.fh5co-blog .blog-text span.comment a i {
-  color: #ff5722;
+.zavi-blog .blog-text span.comment a i {
+  color: #800080;
   padding-left: 7px;
 }
-.fh5co-blog .blog-text h3 {
+.zavi-blog .blog-text h3 {
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: 300;
   line-height: 1.5;
 }
-.fh5co-blog .blog-text h3 a {
+.zavi-blog .blog-text h3 a {
   color: rgba(0, 0, 0, 0.6);
 }
 
-#fh5co-start-project-section {
+#zavi-start-project-section {
   padding: 7em 0;
   background: #F64E8B;
 }
-#fh5co-start-project-section h2 {
+#zavi-start-project-section h2 {
   color: white;
   font-size: 60px;
   text-transform: uppercase;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-start-project-section h2 {
+  #zavi-start-project-section h2 {
     font-size: 30px;
   }
 }
-#fh5co-start-project-section a:hover, #fh5co-start-project-section a:focus, #fh5co-start-project-section a:active {
+#zavi-start-project-section a:hover, #zavi-start-project-section a:focus, #zavi-start-project-section a:active {
   color: white !important;
 }
 
@@ -1128,20 +1123,20 @@ figure {
   }
 }
 
-.fh5co-social-icons > a {
+.zavi-social-icons > a {
   padding: 4px 10px;
-  color: #ff5722;
+  color: #800080;
 }
-.fh5co-social-icons > a i {
+.zavi-social-icons > a i {
   font-size: 26px;
 }
-.fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
+.zavi-social-icons > a:hover, .zavi-social-icons > a:focus, .zavi-social-icons > a:active {
   text-decoration: none;
   color: #5a5a5a;
 }
 
 #footer {
-  background: #ff5722;
+  background: #800080;
   padding: 60px 0 40px;
 }
 #footer p {
@@ -1169,14 +1164,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #ff5722;
+  background: #800080;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #ff5722;
+  background: #800080;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1192,25 +1187,25 @@ figure {
   opacity: 0;
 }
 
-#fh5co-wrapper {
+#zavi-wrapper {
   overflow-x: hidden;
   position: relative;
 }
 
-.fh5co-offcanvas {
+.zavi-offcanvas {
   overflow: hidden;
 }
-.fh5co-offcanvas #fh5co-wrapper {
+.zavi-offcanvas #zavi-wrapper {
   overflow: hidden !important;
 }
 
-#fh5co-page {
+#zavi-page {
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-offcanvas #fh5co-page {
+.zavi-offcanvas #zavi-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
   -ms-transform: translateX(-240px);
@@ -1219,7 +1214,7 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-menu-wrap {
+  #zavi-menu-wrap {
     display: none;
   }
 }
@@ -1255,34 +1250,34 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #ff5722;
+  color: #800080;
 }
-#offcanvas-menu ul li > .fh5co-sub-menu {
+#offcanvas-menu ul li > .zavi-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #ff5722;
+  color: #800080;
 }
-#offcanvas-menu ul .fh5co-sub-menu {
+#offcanvas-menu ul .zavi-sub-menu {
   display: block !important;
 }
 
-.fh5co-nav-toggle {
+.zavi-nav-toggle {
   cursor: pointer;
   text-decoration: none;
 }
-.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+.zavi-nav-toggle.active i::before, .zavi-nav-toggle.active i::after {
   background: #fff;
 }
-.fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
+.zavi-nav-toggle.dark.active i::before, .zavi-nav-toggle.dark.active i::after {
   background: #fff;
 }
-.fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
+.zavi-nav-toggle:hover, .zavi-nav-toggle:focus, .zavi-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
-.fh5co-nav-toggle i {
+.zavi-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1297,7 +1292,7 @@ figure {
   background: #fff;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+.zavi-nav-toggle i::before, .zavi-nav-toggle i::after {
   content: '';
   width: 30px;
   height: 2px;
@@ -1308,40 +1303,40 @@ figure {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.fh5co-nav-toggle.dark i {
+.zavi-nav-toggle.dark i {
   position: relative;
   color: #000;
   background: #000;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
+.zavi-nav-toggle.dark i::before, .zavi-nav-toggle.dark i::after {
   background: #000;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-.fh5co-nav-toggle i::before {
+.zavi-nav-toggle i::before {
   top: -7px;
 }
 
-.fh5co-nav-toggle i::after {
+.zavi-nav-toggle i::after {
   bottom: -7px;
 }
 
-.fh5co-nav-toggle:hover i::before {
+.zavi-nav-toggle:hover i::before {
   top: -10px;
 }
 
-.fh5co-nav-toggle:hover i::after {
+.zavi-nav-toggle:hover i::after {
   bottom: -10px;
 }
 
-.fh5co-nav-toggle.active i {
+.zavi-nav-toggle.active i {
   background: transparent;
 }
 
-.fh5co-nav-toggle.active i::before {
+.zavi-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1350,7 +1345,7 @@ figure {
   transform: rotateZ(45deg);
 }
 
-.fh5co-nav-toggle.active i::after {
+.zavi-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1359,7 +1354,7 @@ figure {
   transform: rotateZ(-45deg);
 }
 
-.fh5co-nav-toggle {
+.zavi-nav-toggle {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1370,7 +1365,7 @@ figure {
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
+  .zavi-nav-toggle {
     display: block;
     top: 0px;
     margin-top: 2em;
@@ -1457,7 +1452,7 @@ figure {
   top: 0;
 }
 
-.fh5co-loader {
+.zavi-loader {
   position: fixed;
   left: 0px;
   top: 0px;
