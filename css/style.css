@@ -648,6 +648,12 @@ figure {
   font-size: 40px;
   color: #800080;
 }
+.feature-left .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #800080;
+}
 .feature-left .feature-copy {
   float: right;
   width: 80%;
@@ -820,7 +826,7 @@ figure {
   }
 }
 #zavi-features .feature-left .icon i {
-  color: #d9d9d9 !important;
+  color: #800080 !important;
 }
 #zavi-features .feature-left .icon {
   float: left;
@@ -1017,7 +1023,7 @@ figure {
   color: #800080;
 }
 .zavi-testimonial > div .position, .zavi-team > div .position {
-  color: #d9d9d9;
+  color: #800080;
   margin-bottom: 30px;
 }
 .zavi-testimonial > div,
