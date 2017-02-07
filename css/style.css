@@ -160,7 +160,7 @@ figure {
   width: 100%;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 15px;
   right: 0;
   z-index: 1;
   background: rgba(66, 64, 64, 0.9);
