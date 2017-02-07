@@ -136,7 +136,7 @@ figure {
 @media screen and (max-width: 768px) {
   .zavi-cover,
   .zavi-hero {
-    height: 700px;
+    height: 350px;
   }
 }
 .zavi-cover.zavi-hero-2,
@@ -173,8 +173,8 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .zavi-cover {
-    heifght: inherit;
-    padding: 3em 0;
+    height: inherit;
+    padding: 10em 0;
   }
 }
 .zavi-cover .btn {
@@ -186,7 +186,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .zavi-cover.zavi-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
