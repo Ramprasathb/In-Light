@@ -10,7 +10,7 @@
 
 /* Reset */
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
@@ -1435,21 +1435,6 @@
 
 		}
 
-	a {
-		color: inherit;
-		text-decoration: none;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	}
-
-		a:hover {
-			color: #ffffff;
-			border-bottom-color: transparent;
-		}
-
 	strong, b {
 		color: #ffffff;
 		font-weight: 200;
@@ -1470,10 +1455,6 @@
 		margin: 0 0 1em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
 
 		@media screen and (max-width: 980px) {
 
@@ -2606,19 +2587,6 @@
 		}
 
 /* Footer */
-
-	#footer {
-		text-align: center;
-		padding: 4em 0 4em 0;
-	}
-
-		#footer:before {
-			content: '';
-			border-top: solid 1px rgba(255, 255, 255, 0.25);
-			width: 10em;
-			display: block;
-			margin: 0 auto 3em auto;
-		}
 
 		@media screen and (max-width: 1280px) {
 
