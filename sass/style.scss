@@ -268,8 +268,9 @@ figure {
 .zavi-cover{
 	background-size: cover;
 	position: relative;
+    background-position: 0px !important;
 	@media screen and (max-width: $screen-sm) {
-		heifght: inherit;
+		height: inherit;
 		padding: 3em 0;
 	}
 	.btn {

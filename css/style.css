@@ -168,6 +168,7 @@ figure {
 }
 
 .zavi-cover {
+  background-position: 0px !important;
   background-size: cover;
   position: relative;
 }
